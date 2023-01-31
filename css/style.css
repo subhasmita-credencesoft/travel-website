@@ -1050,9 +1050,9 @@ button {
     padding-right: 0; }
   .social-icons li a {
     font-size: 14px;
-    color: #a0a8ab; }
+    color: white; }
     .social-icons li a:hover {
-      color: #a51a1d; }
+      color: black; }
 
 .button-blog {
   display: inline-block;
