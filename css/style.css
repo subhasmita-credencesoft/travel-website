@@ -431,7 +431,7 @@ button {
       font-size: 22px;
       color: #a51a1d; }
   .header-top-info .media-body p {
-    margin-bottom: 0; }
+    margin-bottom: 0px !important; }
   .header-top-info .media-body a {
     color: #303030;
     font-weight: bold; }
