@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Seaplace Hotel - Gallery</title>
 
-	<link rel="icon" href="img/favicon.png" type="image/png">
+	<link rel="icon" href="img/Logo.jpeg" type="image/png" height="50px" width="50px">
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
 	<link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
@@ -110,44 +110,44 @@
     <div class="container">
       <div class="section-intro text-center pb-80px">
         <div class="section-intro__style">
-          <img src="img/home/bed-icon.png" alt="">
+          <img src="img/home/bed-icon.png" alt=""style="color:red">
         </div>
         <h2>Our Gallery</h2>
 			</div>
 
 			<section class="gallery-block grid-gallery">
 				<div class="container">
-					
-					<div class="row">
+					 
+					<div class="row"  data-toggle="modal" data-target="#largeModal">
 						<div class="col-md-6 col-lg-4 item">
-							<a class="lightbox" href="http://www.politicalmetaphors.com/wp-content/uploads/2015/04/blog-shapes-square-windows.jpg">
+						
 						<img class="img-fluid image scale-on-hover" src="img/HOTEL SAI DAUALT RECEPTION.JPG">
-					</a>
+					
 						</div>
 						<div class="col-md-6 col-lg-4 item">
-							<a class="lightbox" href="https://res.cloudinary.com/dpnaptcei/image/upload/v1537070507/Gallery/image2.jpg">
+						
 						<img class="img-fluid image scale-on-hover" src="img/SD 3 BED AC.JPG">
-					</a>
+					
 						</div>
 						<div class="col-md-6 col-lg-4 item">
-							<a class="lightbox" href="https://res.cloudinary.com/dpnaptcei/image/upload/v1537070506/Gallery/image3.jpg">
+							
 						<img class="img-fluid image scale-on-hover" src="img/SD 4 BED ROOMS.JPG">
-					</a>
+					
 						</div>
 						<div class="col-md-6 col-lg-4 item">
-							<a class="lightbox" href="https://res.cloudinary.com/dpnaptcei/image/upload/v1537070505/Gallery/image4.jpg">
+						
 						<img class="img-fluid image scale-on-hover" src="img/SD FACE HEAD.JPG">
-					</a>
+				
 						</div>
 						<div class="col-md-6 col-lg-4 item">
-							<a class="lightbox" href="https://res.cloudinary.com/dpnaptcei/image/upload/v1537070506/Gallery/image5.jpg">
+						
 								<img class="img-fluid image scale-on-hover" src="img/HOTEL SAI DAUALT RECEPTION.JPG">
-					</a>
+				
 						</div>
 						<div class="col-md-6 col-lg-4 item">
-							<a class="lightbox" href="https://res.cloudinary.com/dpnaptcei/image/upload/v1537070508/Gallery/image6.jpg">
+							
 						<img class="img-fluid image scale-on-hover" src="img/SD 4 BED ROOMS.JPG">
-					</a>
+					
 						</div>
 						
 					</div>
@@ -158,8 +158,78 @@
   <!-- ================ end gallery section ================= -->
 
 
+<div class="container" >
+  <!-- <h1 class="display-4 text-center mb-4">Sample Modal</h1> -->
 
-
+  <!-- modal -->
+  <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg" style="margin-top: 70px;">
+      <div class="modal-content">
+        <div class="modal-body">
+           <!-- carousel -->
+          <div
+               id='carouselExampleIndicators'
+               class='carousel slide'
+               data-ride='carousel'
+               >
+            <ol class='carousel-indicators'>
+              <li
+                  data-target='#carouselExampleIndicators'
+                  data-slide-to='0'
+                  class='active'
+                  ></li>
+              <li
+                  data-target='#carouselExampleIndicators'
+                  data-slide-to='1'
+                  ></li>
+              <li
+                  data-target='#carouselExampleIndicators'
+                  data-slide-to='2'
+                  ></li>
+            </ol>
+            <div class='carousel-inner'>
+              <div class='carousel-item active'>
+                <img class='img-size' src='img/HOTEL SAI DAUALT RECEPTION.JPG' alt='First slide' height="500px"/>
+              </div>
+              <div class='carousel-item'>
+                <img class='img-size' src='img/SD 3 BED AC.JPG'  height="500px"alt='Second slide' />
+              </div>
+              <div class='carousel-item'>
+                <img class='img-size' src='img/SD FACE HEAD.JPG'  height="500px" alt='Second slide' />
+              </div>
+            </div>
+            <a
+               class='carousel-control-prev'
+               href='#carouselExampleIndicators'
+               role='button'
+               data-slide='prev'
+               >
+              <span class='carousel-control-prev-icon'
+                    aria-hidden='true'
+                    ></span>
+              <span class='sr-only'>Previous</span>
+            </a>
+            <a
+               class='carousel-control-next'
+               href='#carouselExampleIndicators'
+               role='button'
+               data-slide='next'
+               >
+              <span
+                    class='carousel-control-next-icon'
+                    aria-hidden='true'
+                    ></span>
+              <span class='sr-only'>Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   <!-- ================ start footer Area ================= -->
@@ -222,7 +292,7 @@
 			</div>
 			<div class="footer-bottom row align-items-center text-center text-lg-left">
 				<p class="footer-text m-0 col-lg-8 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Credencesoft</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 				<div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
 					<a href="#"><i class="fab fa-facebook-f"></i></a>
