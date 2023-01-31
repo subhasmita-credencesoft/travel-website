@@ -23,7 +23,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div id="logo">
-            <a href="index.html"><img src="img/Logo.jpeg" alt="" title="" /></a>
+            <a href="index.html"><img src="img/Logo.jpeg" alt="" title="" height="80px" width="100px" /></a>
           </div>
           <div class="ml-auto d-none d-md-block d-md-flex">
             <div class="media header-top-info">
@@ -115,91 +115,44 @@
         <h2>Our Gallery</h2>
 			</div>
 
-			<div class="row">
-				<div class="col-md-5">
+			<section class="gallery-block grid-gallery">
+				<div class="container">
+					
 					<div class="row">
-						<div class="col-12 mb-4">
-							<a href="img/gallery/g1.png" class="img-gal card-img">
-								<div class="single-imgs relative">
-									<div class="overlay overlay-bg"></div>
-									<div class="relative">
-										<img class="card-img rounded-0" src="img/gallery/g1.png" alt="">
-									</div>
-								</div>
-							</a>
+						<div class="col-md-6 col-lg-4 item">
+							<a class="lightbox" href="http://www.politicalmetaphors.com/wp-content/uploads/2015/04/blog-shapes-square-windows.jpg">
+						<img class="img-fluid image scale-on-hover" src="img/HOTEL SAI DAUALT RECEPTION.JPG">
+					</a>
 						</div>
-						<div class="col-12 mb-4">
-							<a href="img/gallery/g2.png" class="img-gal card-img">
-								<div class="single-imgs relative">
-									<div class="overlay overlay-bg"></div>
-									<div class="relative">
-										<img class="card-img rounded-0" src="img/gallery/g2.png" alt="">
-									</div>
-								</div>
-							</a>
+						<div class="col-md-6 col-lg-4 item">
+							<a class="lightbox" href="https://res.cloudinary.com/dpnaptcei/image/upload/v1537070507/Gallery/image2.jpg">
+						<img class="img-fluid image scale-on-hover" src="img/SD 3 BED AC.JPG">
+					</a>
 						</div>
+						<div class="col-md-6 col-lg-4 item">
+							<a class="lightbox" href="https://res.cloudinary.com/dpnaptcei/image/upload/v1537070506/Gallery/image3.jpg">
+						<img class="img-fluid image scale-on-hover" src="img/SD 4 BED ROOMS.JPG">
+					</a>
+						</div>
+						<div class="col-md-6 col-lg-4 item">
+							<a class="lightbox" href="https://res.cloudinary.com/dpnaptcei/image/upload/v1537070505/Gallery/image4.jpg">
+						<img class="img-fluid image scale-on-hover" src="img/SD FACE HEAD.JPG">
+					</a>
+						</div>
+						<div class="col-md-6 col-lg-4 item">
+							<a class="lightbox" href="https://res.cloudinary.com/dpnaptcei/image/upload/v1537070506/Gallery/image5.jpg">
+								<img class="img-fluid image scale-on-hover" src="img/HOTEL SAI DAUALT RECEPTION.JPG">
+					</a>
+						</div>
+						<div class="col-md-6 col-lg-4 item">
+							<a class="lightbox" href="https://res.cloudinary.com/dpnaptcei/image/upload/v1537070508/Gallery/image6.jpg">
+						<img class="img-fluid image scale-on-hover" src="img/SD 4 BED ROOMS.JPG">
+					</a>
+						</div>
+						
 					</div>
 				</div>
-
-				<div class="col-md-7">
-					<div class="row">
-						<div class="col-sm-7 mb-4">
-							<a href="img/gallery/g3.png" class="img-gal card-img">
-								<div class="single-imgs relative">
-									<div class="overlay overlay-bg"></div>
-									<div class="relative">
-										<img class="card-img rounded-0" src="img/gallery/g3.png" alt="">
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-sm-5 mb-4">
-							<a href="img/gallery/g4.png" class="img-gal card-img">
-								<div class="single-imgs relative">
-									<div class="overlay overlay-bg"></div>
-									<div class="relative">
-										<img class="card-img rounded-0" src="img/gallery/g4.png" alt="">
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12 mb-4">
-							<a href="img/gallery/g5.png" class="img-gal card-img">
-								<div class="single-imgs relative">
-									<div class="overlay overlay-bg"></div>
-									<div class="relative">
-										<img class="card-img rounded-0" src="img/gallery/g5.png" alt="">
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-7 mb-4">
-							<a href="img/gallery/g6.png" class="img-gal card-img">
-								<div class="single-imgs relative">
-									<div class="overlay overlay-bg"></div>
-									<div class="relative">
-										<img class="card-img rounded-0" src="img/gallery/g6.png" alt="">
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-sm-5 mb-4">
-							<a href="img/gallery/g7.png" class="img-gal card-img">
-								<div class="single-imgs relative">
-									<div class="overlay overlay-bg"></div>
-									<div class="relative">
-										<img class="card-img rounded-0" src="img/gallery/g7.png" alt="">
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
+			</section>
 		</div>
 	</section>
   <!-- ================ end gallery section ================= -->
@@ -282,7 +235,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</footer>
   <!-- ================ End footer Area ================= -->
 
-
+<script>
+	baguetteBox.run('.grid-gallery', {
+		animation: 'slideIn'
+	});
+</script>
 
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
